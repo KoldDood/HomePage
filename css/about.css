@@ -2,10 +2,38 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    height: 250vh;
+    height: 100vh;
     margin: 0;
     overflow-x: hidden;
-    background: linear-gradient(to bottom right, orange, black);
+    background: linear-gradient(to bottom right, orange, white, black);
+}
+
+#slides {
+    width:60vw;
+    height:60vw;
+}
+
+.frame {
+    width:60vw;
+    height:60vw;
+}
+
+.container h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container iframe {
+    display: flex;
+    position: absolute;
+    left: 25%;
 }
 
 .btn {
@@ -14,7 +42,6 @@ body {
     top: 3%;
     left: 3%;
     scale: 1.5;
-    color: black;
     opacity: 1;
     z-index: 1;
     cursor: pointer;
